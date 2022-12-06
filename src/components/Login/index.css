@@ -1,0 +1,73 @@
+.app-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .app-container {
+    flex-direction: column;
+  }
+}
+.logo {
+  height: 47px;
+  width: 141px;
+}
+
+@media screen and (max-width: 768px) {
+  .logo {
+    height: 28px;
+    width: 105px;
+  }
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 30px;
+}
+.input-element {
+  height: 33px;
+  height: 32px;
+  width: 360px;
+  border-radius: 6px;
+  border: 1px solid darkgrey;
+  padding: 1%;
+  margin-bottom: 11px;
+}
+.login-button {
+  height: 38px;
+  width: 360px;
+  left: 0px;
+  top: 0px;
+  border-radius: 8px;
+  background-color: #0284c7;
+  color: #ffffff;
+  border: 0px;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 700;
+}
+.book-image {
+  height: 100vh;
+  width: 50vw;
+}
+@media screen and (max-width: 768px) {
+  .book-image {
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+  }
+}
+.error-msg {
+  align-self: flex-start;
+  color: #ff0b37;
+  margin-top: 0px;
+  margin-bottom: 5%;
+  font-family: 'Roboto';
+  font-size: 13px;
+}

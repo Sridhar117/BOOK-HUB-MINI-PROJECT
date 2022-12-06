@@ -1,0 +1,179 @@
+.bookDetails-item-container {
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 768px) {
+  .bookDetails-item-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.bookDetails-image {
+  height: 155px;
+  width: 133px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.bookDetails-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  padding-left: 20px;
+  width: 40vw;
+}
+
+@media screen and (max-width: 768px) {
+  .bookDetails-container {
+    padding-left: 0px;
+  }
+}
+
+.bookDetails-title {
+  font-family: 'Inter';
+  font-size: 16px;
+  font-weight: 600;
+  text-align: left;
+  color: #334155;
+}
+
+@media screen and (max-width: 768px) {
+  .bookDetails-title {
+    text-align: center;
+  }
+}
+.bookDetails-author {
+  font-family: 'Inter';
+  font-size: 14px;
+  font-weight: 500;
+  text-align: left;
+  color: #475569;
+  margin: 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .bookDetails-author {
+    text-align: center;
+  }
+}
+.bookDetails-star-icon {
+  color: #fbbf24;
+  margin: 0px 3px;
+}
+.bookDetails-rating {
+  font-family: 'Inter';
+  font-size: 14px;
+  font-weight: 500;
+  text-align: left;
+  color: #475569;
+}
+.bookDetails-rating-points {
+  font-family: 'HK Grotesk';
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+  margin: 0px;
+}
+.bookDetails-status {
+  font-family: 'Inter';
+  font-size: 14px;
+  font-weight: 500;
+  text-align: left;
+  color: #475569;
+  margin: 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .bookDetails-status {
+    text-align: center;
+  }
+}
+
+.bookDetails-status-value {
+  font-family: 'Inter';
+  font-size: 14px;
+  font-weight: 500;
+  text-align: left;
+  color: #0284c7;
+  margin: 0px;
+}
+
+.bookDetails-card-container {
+  display: flex;
+  background-color: #ffffff;
+  justify-content: center;
+  border-radius: 16px;
+  padding: 30px;
+  width: 80%;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.bookDetails-main-container {
+  background-color: #f5f7fa;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bookDetails-hr-line {
+  width: 100%;
+  color: #94a3b8;
+  margin: 25px 0px;
+}
+.description-container {
+  padding: 5px;
+}
+.bookDetails-about-author {
+  font-family: 'Inter';
+  font-size: 15px;
+  font-weight: 600;
+  color: #334155;
+  text-align: left;
+}
+.bookDetails-author-description {
+  font-family: 'Inter';
+  font-size: 15px;
+  font-weight: 400;
+  text-align: left;
+  color: #475569;
+}
+.bookDetails-about-book {
+  font-family: 'Inter';
+  font-size: 15px;
+  font-weight: 600;
+  text-align: left;
+  color: #334155;
+}
+.bookDetails-about-book-description {
+  font-family: 'Inter';
+  font-size: 15px;
+  font-weight: 400;
+  text-align: left;
+  color: #475569;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.bookDetails-item-avg-rating-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .bookDetails-item-avg-rating-container {
+    justify-content: center !important;
+    text-align: center;
+  }
+}

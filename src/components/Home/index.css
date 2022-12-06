@@ -1,0 +1,179 @@
+.top-rated-book-heading {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  color: #1e293b;
+}
+.top-rated-book-paragraph {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #475569;
+}
+.top-rated-card-heading {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+@media screen and (max-width: 768px) {
+  .top-rated-card-heading {
+    font-size: 16px;
+    text-align: center;
+  }
+}
+
+.top-rated-card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .top-rated-card-container {
+    padding-left: 0px;
+  }
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: rgb(212, 41, 41);
+  text-align: center;
+}
+.slick-container {
+  background-color: #f5f7fa;
+  border-radius: 10px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-bottom: 35px;
+}
+
+.find-button {
+  width: 104px;
+  height: 36px;
+  background: #0284c7;
+  border-radius: 4px;
+  border: 0px;
+  color: #ffffffff;
+}
+
+@media screen and (max-width: 768px) {
+  .find-button {
+    margin-bottom: 10px;
+  }
+}
+
+.favorite-book {
+  height: 20vh;
+  width: 25vw;
+  border-radius: 8px;
+}
+@media screen and (max-width: 768px) {
+  .favorite-book {
+    max-height: 20vh;
+    width: 25vw;
+    margin-top: 5px;
+    align-items: center;
+  }
+}
+.book-container {
+  width: 350px;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.book-title {
+  font-family: 'Inter';
+  font-size: 15px;
+  text-align: center;
+}
+.book-author-name {
+  font-family: 'Inter';
+  margin: 0px;
+  font-size: 14px;
+  text-align: center;
+}
+.failure-view-heading {
+  font-family: 'Inter';
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 64px;
+  text-align: left;
+}
+.failure-view-paragraph {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.failure-view-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: #ffffff;
+  box-shadow: 0px 0px 1px rgba(40, 41, 61, 0.08),
+    0px 1px 2px rgba(96, 97, 112, 0.16);
+  align-items: center;
+}
+.failure-view-card-heading {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+.failure-view-card-button {
+  height: 36px;
+  width: 104px;
+  border: 0px;
+  border-radius: 4px;
+  padding: 10px 20px 10px 20px;
+}
+.failure-view-error-message {
+  font-family: 'Inter';
+  font-size: 16px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.all-slides-container {
+  background: #ffffff;
+  box-shadow: 0px 0px 1px rgb(40 41 61 / 8%), 0px 1px 2px rgb(96 97 112 / 16%);
+  border-radius: 4px;
+  padding: 15px 50px;
+  margin-bottom: 75px;
+}
+
+.main-container {
+  background-color: #f5f7fa;
+  min-height: 100vh;
+}
+
+.nav-option-button {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .nav-option-button {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .find-book-lg-button {
+    display: none;
+  }
+}
+.text-underline-none {
+  text-decoration: none;
+}
