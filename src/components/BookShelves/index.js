@@ -98,7 +98,10 @@ class BookShelves extends Component {
           <ul className="book-list-container">
             {books.map(eachBook => (
               <li key={eachBook.id} className="bookshelf-item-container">
-                <Link to={`/books/${eachBook.id}`}>
+                <Link
+                  to={`/books/${eachBook.id}`}
+                  className="bookshelf-link-container"
+                >
                   <img
                     src={eachBook.coverPic}
                     alt={eachBook.title}
@@ -114,7 +117,7 @@ class BookShelves extends Component {
                       <p className="rating-points">{eachBook.rating}</p>
                     </div>
                     <p className="book-status">
-                      Status :{' '}
+                      Status :
                       <span className="book-status-value">
                         {eachBook.readStatus}
                       </span>

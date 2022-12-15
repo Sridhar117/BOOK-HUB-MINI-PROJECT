@@ -36,7 +36,6 @@
   font-family: 'Inter';
   font-size: 16px;
   font-weight: 600;
-  text-align: left;
   color: #334155;
 }
 
@@ -45,6 +44,7 @@
     text-align: center;
   }
 }
+
 .bookDetails-author {
   font-family: 'Inter';
   font-size: 14px;

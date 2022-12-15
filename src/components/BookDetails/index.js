@@ -82,7 +82,7 @@ class BookDetails extends Component {
               <p className="bookDetails-rating-points">{bookDetails.rating}</p>
             </div>
             <p className="bookDetails-status">
-              Status:{' '}
+              Status:
               <span className="bookDetails-status-value">
                 {bookDetails.readStatus}
               </span>

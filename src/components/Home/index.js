@@ -125,7 +125,7 @@ class Home extends Component {
                       className="favorite-book"
                     />
 
-                    <h1 className="book-title">{eachBook.title}</h1>
+                    <h1 className="book-home-title">{eachBook.title}</h1>
                     <p className="book-author-name">{eachBook.authorName}</p>
                   </Link>
                 </div>
