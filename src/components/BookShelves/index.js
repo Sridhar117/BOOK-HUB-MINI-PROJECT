@@ -104,22 +104,23 @@ class BookShelves extends Component {
                     alt={eachBook.title}
                     className="bookshelf-image"
                   />
-                </Link>
-                <div className="bookshelf-details-container">
-                  <h1 className="book-title">{eachBook.title}</h1>
-                  <p className="book-author">{eachBook.authorName}</p>
-                  <div className="book-item-avg-rating-container">
-                    <p className="book-rating">Avg Rating</p>
-                    <BsFillStarFill className="star-icon" />
-                    <p className="rating-points">{eachBook.rating}</p>
+
+                  <div className="bookshelf-details-container">
+                    <h1 className="book-title">{eachBook.title}</h1>
+                    <p className="book-author">{eachBook.authorName}</p>
+                    <div className="book-item-avg-rating-container">
+                      <p className="book-rating">Avg Rating</p>
+                      <BsFillStarFill className="star-icon" />
+                      <p className="rating-points">{eachBook.rating}</p>
+                    </div>
+                    <p className="book-status">
+                      Status :{' '}
+                      <span className="book-status-value">
+                        {eachBook.readStatus}
+                      </span>
+                    </p>
                   </div>
-                  <p className="book-status">
-                    Status :{' '}
-                    <span className="book-status-value">
-                      {eachBook.readStatus}
-                    </span>
-                  </p>
-                </div>
+                </Link>
               </li>
             ))}
           </ul>

@@ -124,8 +124,9 @@ class Home extends Component {
                       alt={eachBook.title}
                       className="favorite-book"
                     />
-                    <h1 className="book-title ">{eachBook.title}</h1>
-                    <p className="book-author-name ">{eachBook.authorName}</p>
+
+                    <h1 className="book-title">{eachBook.title}</h1>
+                    <p className="book-author-name">{eachBook.authorName}</p>
                   </Link>
                 </div>
               )
