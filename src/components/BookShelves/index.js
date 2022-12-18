@@ -100,7 +100,7 @@ class BookShelves extends Component {
               <li key={eachBook.id} className="bookshelf-item-container">
                 <Link
                   to={`/books/${eachBook.id}`}
-                  className="bookshelf-link-container"
+                  className="bookshelf-link-container text-underline-none"
                 >
                   <img
                     src={eachBook.coverPic}

@@ -62,8 +62,8 @@ class Home extends Component {
     const {books} = this.state
     const settings = {
       dots: false,
-      infinite: true,
-      autoplay: true,
+      infinite: false,
+      autoplay: false,
       speed: 500,
       slidesToScroll: 1,
       slidesToShow: 4,

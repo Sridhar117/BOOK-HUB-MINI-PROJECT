@@ -307,3 +307,7 @@
 .bookshelf-link-container {
   display: flex;
 }
+
+.text-underline-none {
+  text-decoration: none;
+}
